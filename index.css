@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #ec4899;
+  --color-brand-purple: #a855f7;
+}
+
+.glow-pink {
+  box-shadow: 0 0 55px rgba(236, 72, 153, 0.45);
+}
+
+.glow-purple {
+  box-shadow: 0 0 55px rgba(168, 85, 247, 0.4);
+}
+
+.glass-card {
+  background: rgba(20, 10, 25, 0.4);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(236, 72, 153, 0.15);
+}
+
+.zoya-gradient {
+  background: radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.08) 0%, transparent 70%);
+}
+
